@@ -99,7 +99,7 @@ Test it:
 
 You can build powerful pipelines with only one container!!1!
 
-## Using the image definition file to automate builds
+## Automating builds via image.def files:
 
 Ok, now its time to read the docs about definition files which you can find [here](http://singularity.lbl.gov/bootstrap-image).. 
 
