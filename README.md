@@ -115,8 +115,8 @@ Some stuff good to know about image definitions:
 
 -   If you are using NVIDIA GPUs:
     - The container needs the same driver version as the host. Check via `nvidia smi` on the host.
--   Checkout default values in /etc/singularity/singularity.conf on your host
-    - Eg. deactivate default mount behaviour `mount home = no` 
+-   Checkout default values in /etc/singularity/singularity.conf on your host:
+    - Eg. deactivate default mount behaviour `mount home = no` 
     
 
 # Tasks for training:
