@@ -103,7 +103,7 @@ You can build powerful pipelines with only one container!!1!
 
 Ok, now its time to read the docs about definition files which you can find [here](http://singularity.lbl.gov/bootstrap-image).. 
 
-Some stuff good to know:
+Some stuff good to know about image definitions:
 * Similar to dockerfile usage 
 * In **%setup**:
     * Use `${SINGULARITY_ROOTFS}` variable to copy files directly to the container
@@ -115,9 +115,10 @@ Some stuff good to know:
 
 -   If you are using NVIDIA GPUs:
     - The container needs the same driver version as the host. Check via `nvidia smi` on the host.
- 
+-   Checkout default values in /etc/singularity/singularity.conf on your host
+    - Eg. deactivate default mount behaviour `mount home = no` 
     
-   
+
 # Tasks for training:
 -   Try out one of the above examples
 -   Use the `singularity mount` option to copy files to the container
