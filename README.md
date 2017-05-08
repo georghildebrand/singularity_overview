@@ -33,6 +33,7 @@ If your image works on your local computer. Chances are high, that it will work 
 ## Install (Linux)
 You need to do this on a machine where you are root!
 
+    VERSION=2.2.1
     wget https://github.com/singularityware/singularity/releases/download/$VERSION/singularity-$VERSION.tar.gz
     tar xvf singularity-$VERSION.tar.gz
     cd singularity-$VERSION
